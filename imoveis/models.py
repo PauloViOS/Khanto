@@ -19,7 +19,9 @@ class Imovel(models.Model):
 			)
 		]
 		verbose_name_plural = 'imoveis'
-
 	@property
 	def codigo(self):
 		return f"IMV{self.id}"
+
+	def __str__(self):
+		return self.codigo

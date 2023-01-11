@@ -17,9 +17,9 @@ class Anuncio(models.Model):
 	def save(self, *args, **kwargs):
 		taxas_dict = {
 			'AIRBNB': 50,
-			'BOOKING': 50,
-			'TRIVAGO': 50,
-			'HOTEL_URBANO': 50,
+			'BOOKING': 60,
+			'TRIVAGO': 70,
+			'HOTEL_URBANO': 80,
 		}
 		self.taxa_plataforma = taxas_dict[self.plataforma]
 		super().save()
