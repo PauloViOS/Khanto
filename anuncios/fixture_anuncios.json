@@ -1,0 +1,46 @@
+[
+{
+    "model": "anuncios.anuncio",
+    "pk": 4,
+    "fields": {
+        "imovel": 3,
+        "plataforma": "TRIVAGO",
+        "taxa_plataforma": "70.00",
+        "dt_criacao": "2023-01-11T02:58:49.712Z",
+        "dt_atualizacao": "2023-01-11T02:58:49.712Z"
+    }
+},
+{
+    "model": "anuncios.anuncio",
+    "pk": 5,
+    "fields": {
+        "imovel": 7,
+        "plataforma": "AIRBNB",
+        "taxa_plataforma": "50.00",
+        "dt_criacao": "2023-01-11T02:58:54.175Z",
+        "dt_atualizacao": "2023-01-11T02:58:54.175Z"
+    }
+},
+{
+    "model": "anuncios.anuncio",
+    "pk": 6,
+    "fields": {
+        "imovel": 5,
+        "plataforma": "BOOKING",
+        "taxa_plataforma": "60.00",
+        "dt_criacao": "2023-01-11T02:58:57.817Z",
+        "dt_atualizacao": "2023-01-11T02:58:57.817Z"
+    }
+},
+{
+    "model": "anuncios.anuncio",
+    "pk": 7,
+    "fields": {
+        "imovel": 4,
+        "plataforma": "HOTEL_URBANO",
+        "taxa_plataforma": "80.00",
+        "dt_criacao": "2023-01-11T02:59:05.936Z",
+        "dt_atualizacao": "2023-01-11T02:59:05.936Z"
+    }
+}
+]

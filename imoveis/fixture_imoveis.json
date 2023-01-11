@@ -1,0 +1,67 @@
+[
+{
+    "model": "imoveis.imovel",
+    "pk": 3,
+    "fields": {
+        "max_hospedes": 10,
+        "num_banheiros": 5,
+        "pet_friendly": true,
+        "valor_limpeza": "15.00",
+        "data_ativacao": "2023-01-12",
+        "dt_criacao": "2023-01-11T02:55:55.485Z",
+        "dt_atualizacao": "2023-01-11T02:55:55.485Z"
+    }
+},
+{
+    "model": "imoveis.imovel",
+    "pk": 4,
+    "fields": {
+        "max_hospedes": 1,
+        "num_banheiros": 0,
+        "pet_friendly": true,
+        "valor_limpeza": "5.00",
+        "data_ativacao": "2023-01-31",
+        "dt_criacao": "2023-01-11T02:56:06.760Z",
+        "dt_atualizacao": "2023-01-11T02:56:06.761Z"
+    }
+},
+{
+    "model": "imoveis.imovel",
+    "pk": 5,
+    "fields": {
+        "max_hospedes": 6,
+        "num_banheiros": 14,
+        "pet_friendly": false,
+        "valor_limpeza": "9.00",
+        "data_ativacao": "2023-02-01",
+        "dt_criacao": "2023-01-11T02:56:22.070Z",
+        "dt_atualizacao": "2023-01-11T02:56:22.070Z"
+    }
+},
+{
+    "model": "imoveis.imovel",
+    "pk": 6,
+    "fields": {
+        "max_hospedes": 14,
+        "num_banheiros": 7,
+        "pet_friendly": false,
+        "valor_limpeza": "65.00",
+        "data_ativacao": "2023-01-19",
+        "dt_criacao": "2023-01-11T02:56:41.450Z",
+        "dt_atualizacao": "2023-01-11T02:56:41.450Z"
+    }
+},
+{
+    "model": "imoveis.imovel",
+    "pk": 7,
+    "fields": {
+        "max_hospedes": 50,
+        "num_banheiros": 9,
+        "pet_friendly": true,
+        "valor_limpeza": "76.00",
+        "data_ativacao": "2023-03-08",
+        "dt_criacao": "2023-01-11T02:57:09.824Z",
+        "dt_atualizacao": "2023-01-11T02:57:09.824Z"
+    }
+}
+]
