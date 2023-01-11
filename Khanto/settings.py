@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'imoveis',
     'anuncios',
+    'reservas',
 ]
 
 MIDDLEWARE = [
