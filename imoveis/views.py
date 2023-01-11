@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from rest_framework import viewsets
 
-# Create your views here.
+from .models import Imovel
+from .serializers import ImoveisSerializer
+
+
+class ImoveisViewset(viewsets.ModelViewSet):
+	queryset = Imovel.objects.all()
+	serializer_class = ImoveisSerializer

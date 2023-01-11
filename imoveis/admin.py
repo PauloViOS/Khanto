@@ -5,7 +5,7 @@ from .models import Imovel
 
 
 class ImovelAdmin(ModelAdmin):
-	list_display = ("id","codigo", "max_hospedes", "num_banheiros", "pet_friendly", "valor_limpeza", "data_ativacao",
+	list_display = ("id", "codigo", "max_hospedes", "num_banheiros", "pet_friendly", "valor_limpeza", "data_ativacao",
 					"dt_criacao", "dt_atualizacao")
 
 
