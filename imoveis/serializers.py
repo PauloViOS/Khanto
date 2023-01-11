@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from imoveis.models import Imovel
+from .models import Imovel
 
 
 class ImoveisSerializer(serializers.ModelSerializer):

@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from rest_framework import viewsets
 
-# Create your views here.
+from .models import Anuncio
+from .serializers import AnunciosSerializer
+
+
+class AnunciosViewset(viewsets.ModelViewSet):
+	queryset = Anuncio.objects.all()
+	serializer_class = AnunciosSerializer

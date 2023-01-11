@@ -8,4 +8,5 @@ class AnuncioAdmin(ModelAdmin):
 	list_display = ('id', 'imovel', 'plataforma', 'taxa_plataforma', 'dt_criacao', 'dt_atualizacao')
 	exclude = ('taxa_plataforma',)
 
+
 admin.site.register(Anuncio, AnuncioAdmin)
